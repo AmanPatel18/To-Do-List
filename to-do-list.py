@@ -76,7 +76,7 @@ def retrieve():
 # function to display date and time
 def date_and_time():
     date=time.strftime('%A, %B %d')
-    mycanvas.create_text(130,100,text=date,font=('times 20 bold'),fill='white')
+    mycanvas.create_text(150,100,text=date,font=('times 20 bold'),fill='white')
     
 # canvas for head title
 mycanvas=Canvas(win,width=415,height=140,bg='#122b63',highlightthickness=0)
